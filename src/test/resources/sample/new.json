@@ -1,0 +1,411 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 34,
+        "name": "verfiy the all the process in flowing correctly",
+        "description": "",
+        "id": "adanic-page-testing;verfiy-the-all-the-process-in-flowing-correctly;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5480969200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user enter the page",
+            "match": {
+              "location": "StepDefinition.user_enter_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121393600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter the data\"dineshaltier\" and \"6GRW48\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dineshaltier\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"6GRW48\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_data_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1476433900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on the login",
+            "match": {
+              "location": "StepDefinition.user_click_on_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71104000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select the location",
+            "match": {
+              "location": "StepDefinition.user_select_the_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64595800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User select the Hotels",
+            "match": {
+              "location": "StepDefinition.user_select_the_Hotels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60374500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select the Room Type",
+            "match": {
+              "location": "StepDefinition.user_select_the_Room_Type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57055500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user select the No.of Rooms",
+            "match": {
+              "location": "StepDefinition.user_select_the_No_of_Rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16811200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "check in date",
+            "match": {
+              "location": "StepDefinition.check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17526800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Check out date",
+            "match": {
+              "location": "StepDefinition.check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59345100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Adults per room",
+            "match": {
+              "location": "StepDefinition.adults_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55709500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Children per room",
+            "match": {
+              "location": "StepDefinition.children_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 434543500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "search the hotel",
+            "match": {
+              "location": "StepDefinition.search_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42593000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "button to continue",
+            "match": {
+              "location": "StepDefinition.button_to_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 461218400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click continue",
+            "match": {
+              "location": "StepDefinition.click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61994300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enter the FirstName\"dinesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dinesh\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_FirstName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51252000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enter the LastName\"G\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"G\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_LastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60907200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enter the address\"N0.12/23 XYZ address chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"N0.12/23 XYZ address chennai\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55453200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "enter the CC\"4111111111111110\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4111111111111110\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.enter_the_CC(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58371500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user select the CC type",
+            "match": {
+              "location": "StepDefinition.user_select_the_CC_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58143600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user select the Expiry date",
+            "match": {
+              "location": "StepDefinition.user_select_the_Expiry_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56284100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user select the Expiry year",
+            "match": {
+              "location": "StepDefinition.user_select_the_Expiry_year()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49996800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enter the CVV number\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_CVV_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44510100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "click the book process",
+            "match": {
+              "location": "StepDefinition.click_the_book_process()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5946081300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "cancellation step",
+            "match": {
+              "location": "StepDefinition.cancellation_step()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43394200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "first step of cancellation",
+            "match": {
+              "location": "StepDefinition.first_step_of_cancellation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53472900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "second step of cancellation",
+            "match": {
+              "location": "StepDefinition.second_step_of_cancellation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 732439000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "page to be displayed",
+            "match": {
+              "location": "StepDefinition.page_to_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 265769000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "logout the account",
+            "match": {
+              "location": "StepDefinition.logout_the_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 824640000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "quit the browser",
+            "match": {
+              "location": "StepDefinition.quit_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Adanic page testing",
+    "description": "",
+    "id": "adanic-page-testing",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Adan.feature",
+    "tags": []
+  }
+]

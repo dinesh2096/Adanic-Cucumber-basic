@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.557485">
+<testcase classname="Adanic page testing" name="verfiy the all the process in flowing correctly" time="16.557485">
+<system-out><![CDATA[Given user enter the page...................................................passed
+When user enter the data"dineshaltier" and "6GRW48".........................passed
+And user click on the login.................................................passed
+And user select the location................................................passed
+And User select the Hotels..................................................passed
+And User select the Room Type...............................................passed
+And user select the No.of Rooms.............................................passed
+And check in date...........................................................passed
+And Check out date..........................................................passed
+And Adults per room.........................................................passed
+And Children per room.......................................................passed
+And search the hotel........................................................passed
+And button to continue......................................................passed
+And click continue..........................................................passed
+And user enter the FirstName"dinesh"........................................passed
+And user enter the LastName"G"..............................................passed
+And user enter the address"N0.12/23 XYZ address chennai"....................passed
+And enter the CC"4111111111111110"..........................................passed
+And user select the CC type.................................................passed
+And user select the Expiry date.............................................passed
+And user select the Expiry year.............................................passed
+And user enter the CVV number"123"..........................................passed
+And click the book process..................................................passed
+And cancellation step.......................................................passed
+And first step of cancellation..............................................passed
+And second step of cancellation.............................................passed
+Then page to be displayed...................................................passed
+And logout the account......................................................passed
+And quit the browser........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
